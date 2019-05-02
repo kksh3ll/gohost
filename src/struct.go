@@ -25,4 +25,13 @@ func main()  {
 	fmt.Println(book.prince)
 	fmt.Println(book.title)
 
+	//===========================================================================
+	printBook(&book)
+}
+
+func printBook(book *books)  {
+	fmt.Println("================struct pointer=================")
+	fmt.Println(book.title)
+	fmt.Println(book.prince)
+	fmt.Println(book.book_id)
 }
