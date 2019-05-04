@@ -7,11 +7,19 @@ import "fmt"
 func main() {
 	var number []int
 
+	//number = []int {1,2,3,4,5}
+
 	printSlice(number)
 
 	if (number == nil) {
 		fmt.Println("切片是空的")
+	} else {
+		fmt.Println("not null")
 	}
+
+	numbers1 := make([]int, 0, 7)
+
+	fmt.Println(numbers1)
 }
 
 func printSlice(x []int) {

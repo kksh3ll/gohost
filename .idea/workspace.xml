@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4640f279-e54b-43d0-bc10-3f4ec69465a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/goroutine.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/slice.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +15,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/slice.go">
+        <entry file="file://$PROJECT_DIR$/src/goroutine.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="150">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,6 +46,7 @@
         <option value="$PROJECT_DIR$/src/point.go" />
         <option value="$PROJECT_DIR$/src/struct.go" />
         <option value="$PROJECT_DIR$/src/slice.go" />
+        <option value="$PROJECT_DIR$/src/goroutine.go" />
       </list>
     </option>
   </component>
@@ -108,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build slice.go">
+  <component name="RunManager" selected="Go Build.go build goroutine.go">
     <configuration name="go build array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gohost" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -116,11 +120,11 @@
       <filePath value="$PROJECT_DIR$/src/array.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build goroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gohost" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/loop.go" />
+      <filePath value="$PROJECT_DIR$/src/goroutine.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build point.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -146,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build goroutine.go" />
         <item itemvalue="Go Build.go build slice.go" />
         <item itemvalue="Go Build.go build struct.go" />
         <item itemvalue="Go Build.go build point.go" />
         <item itemvalue="Go Build.go build array.go" />
-        <item itemvalue="Go Build.go build loop.go" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +163,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24797407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24797407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -168,7 +172,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -203,13 +207,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/runtime/proc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/point.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -224,10 +221,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/go/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/slice.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="314">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/goroutine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
