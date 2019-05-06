@@ -7,10 +7,25 @@ import (
 
 func main() {
 
-	example1()
+	var n int
+	var m int
+	fmt.Scanf("%d, %d", &n, &m)
+
+	for i := 1; i < n; i++ {
+		if i>n-i {
+			break
+		}
+		m = n - i
+		fmt.Printf("%d %d\n", i, m)
+	}
+	fmt.Println(n)
+
+	example()
+
+
 }
 
-func example1() {
+func example()  {
 	l := list.New()
 	e4 := l.PushBack(4)
 	e1 := l.PushFront(1)
