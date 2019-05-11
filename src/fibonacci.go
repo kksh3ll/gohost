@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	for i := 0; i < 9; i++ {
+	for i := 0; i < 11; i++ {
 		fmt.Printf("%d ", fibonacci(i))
 	}
 
