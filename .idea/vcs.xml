@@ -2,9 +2,20 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/BurntSushi/toml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/aQuaYi/Go-Patterns" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/aQuaYi/GoKit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/aQuaYi/LeetCode-in-Go" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/astaxie/beego" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/beego/bee" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/bitly/go-simplejson" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/go-sql-driver/mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/jtolds/gls" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/mozillazg/request" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/github.com/shiena/ansicolor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/smartystreets/assertions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/smartystreets/goconvey" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/stretchr/testify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/gopkg.in/gomail.v2" vcs="Git" />
   </component>
 </project>

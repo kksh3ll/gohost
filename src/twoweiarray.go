@@ -13,8 +13,8 @@ func twowei() {
 	for index, value := range array {
 		fmt.Println(index, value)
 
-		for index1, value1 := range value {
-			fmt.Println(index1, value1)
+		for i, v := range value {
+			fmt.Println(i, v)
 		}
 	}
 }
