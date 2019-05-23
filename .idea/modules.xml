@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/go-spider/go-spider.iml" filepath="$PROJECT_DIR$/go-spider/go-spider.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/gohost.iml" filepath="$PROJECT_DIR$/.idea/gohost.iml" />
     </modules>
   </component>
