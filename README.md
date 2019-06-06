@@ -1,0 +1,3 @@
+# gohost
+
+little go program
